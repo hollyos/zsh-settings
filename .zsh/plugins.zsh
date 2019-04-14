@@ -1,0 +1,1 @@
+plugins=(aws bower brew command-not-found composer cloudfoundry common-aliases copyfile docker encode64 extract git git-extras git-flow history mysql-macports npm osx pylint python supervisor vscode web-search yarn)
