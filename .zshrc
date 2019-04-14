@@ -14,7 +14,7 @@ source ~/.zsh/bindings.zsh
 # source ~/.zsh/functions.zsh
 # source ~/.zsh/history.zsh
 # source ~/.zsh/zsh_hooks.zsh
-# source  ${HOME}/.dotfiles/z/z.sh
+source ~/.zsh/plugins.zsh
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
