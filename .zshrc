@@ -22,3 +22,13 @@ export NVM_DIR="$HOME/.nvm"
 
 # Circle - Invest IOS
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/hollyos/dev/personal/next-starter/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/hollyos/dev/personal/next-starter/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/hollyos/dev/personal/next-starter/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/hollyos/dev/personal/next-starter/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /Users/hollyos/dev/personal/next-starter/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/hollyos/dev/personal/next-starter/node_modules/tabtab/.completions/slss.zsh
